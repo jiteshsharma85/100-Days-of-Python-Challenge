@@ -1,34 +1,29 @@
-# Day 26 — List Comprehensions & Dictionary Comprehensions
+# Day 26 — NATO Phonetic Alphabet Converter
 
-Projects from Day 26 of the 100 Days of Code challenge.
+## Preview
 
-## Projects
+![NATO Alphabet — converting "Jitesh" to phonetic codes](preview.png)
 
-### `main.py` — Comprehension Exercises
-Experiments with list and dictionary comprehensions including:
-- Squaring numbers from a list
-- Filtering even numbers
-- Finding common items between two files (`file1.txt`, `file2.txt`)
-- Converting a weekly temperature dictionary from Celsius to Fahrenheit
+## Project
 
-```bash
-python main.py
-```
-
-### `NATO/main.py` — NATO Phonetic Alphabet Converter
+### `main.py` — NATO Phonetic Alphabet Converter
 Enter any word and get the NATO phonetic alphabet equivalent for each letter.
 
 ```
-Enter your name: HELLO
-['Hotel', 'Echo', 'Lima', 'Lima', 'Oscar']
+Enter your name: Jitesh
+['Juliet', 'India', 'Tango', 'Echo', 'Sierra', 'Hotel']
 ```
 
 ```bash
-cd NATO
 python main.py
 ```
 
-**Data file:** `NATO/nato_phonetic_alphabet.csv`
+**Data file:** `nato_phonetic_alphabet.csv`
+
+---
+
+### `extras/` — Comprehension Practice
+Scratch files from list and dictionary comprehension exercises (weather data, file comparisons).
 
 ## Requirements
 
