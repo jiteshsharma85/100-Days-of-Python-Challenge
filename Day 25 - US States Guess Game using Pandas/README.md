@@ -1,34 +1,29 @@
-# Day 25 — Pandas Data Analysis
+# Day 25 — US States Guess Game
 
-Two data analysis projects from Day 25 of the 100 Days of Code challenge.
+## Preview
 
-## Projects
+![USA States name game — guess all 50 states](preview.png)
 
-### `main.py` — Squirrel Census Analysis
-Reads NYC squirrel census data and counts squirrels by primary fur colour, then exports the summary to `count.csv`.
+## Project
 
-```bash
-python main.py
-```
-
-**Data file:** `squirl_data.csv`
-
----
-
-### `US states-project/main.py` — US States Quiz
+### `main.py` — US States Quiz
 An interactive geography game — guess all 50 US state names. Correct guesses are plotted on a map. Type `Exit` to stop and save a list of states you missed to `remaining.csv`.
 
 ```bash
-cd "US states-project"
 python main.py
 ```
 
 **Data files:** `50_states.csv`, `blank_states_img.gif`
 
+---
+
+### `extras/` — Pandas Practice
+Scratch files from the Pandas data analysis exercises (squirrel census, weather data).
+
 ## Requirements
 
 ```bash
-pip install pandas turtle
+pip install pandas
 ```
 
 ## Concepts Practiced
