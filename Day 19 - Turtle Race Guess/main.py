@@ -26,7 +26,7 @@ for i in range(0, 6):
 
 
 
-user_input = my_screen.textinput("what is your bet", "enter the color of winning turtle?")
+user_input = my_screen.textinput("What is your bet?", "Enter the color of winning turtle?")
 
 
 if user_input:

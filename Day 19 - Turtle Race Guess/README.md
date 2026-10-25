@@ -2,9 +2,13 @@
 
 Two mini-projects from Day 19 of the 100 Days of Code challenge.
 
+## Preview
+
+![Turtle Race — bet on the winning colour](preview.png)
+
 ## Projects
 
-### `main.py` — Keyboard-Controlled Turtle
+### `keyboard_instructions.py` — Keyboard-Controlled Turtle
 Draw freely using keyboard controls.
 
 | Key | Action |
@@ -16,14 +20,14 @@ Draw freely using keyboard controls.
 | `C` | Clear and return home |
 
 ```bash
-python main.py
+python keyboard_instructions.py
 ```
 
-### `tim_kim_jim_pim.py` — Turtle Race
+### `main.py` — Turtle Race
 Bet on a colour, then watch six turtles race across the screen. Prints whether you guessed the winner correctly.
 
 ```bash
-python tim_kim_jim_pim.py
+python main.py
 ```
 
 ## Concepts Practiced
