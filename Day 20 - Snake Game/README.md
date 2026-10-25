@@ -2,6 +2,10 @@
 
 A classic Snake game built with Python's Turtle graphics library. Eat food to grow, avoid the walls and your own tail. High score is saved between sessions.
 
+## Preview
+
+![Snake Game — score 10, high score 12](preview.png)
+
 ## Controls
 
 | Key | Action |
@@ -14,7 +18,7 @@ A classic Snake game built with Python's Turtle graphics library. Eat food to gr
 ## How to Run
 
 ```bash
-python main.py
+python keyboard_instructions.py
 ```
 
 > The high score is saved in `data.txt` — do not delete it or the high score will reset.
