@@ -2,6 +2,10 @@
 
 A two-player Pong game built with Python's Turtle graphics library.
 
+## Preview
+
+![Pong Game — two-player gameplay](preview.png)
+
 ## How to Play
 
 | Player | Move Up | Move Down |
@@ -14,7 +18,7 @@ The ball speeds up each time it hits a paddle. First player to miss a point lose
 ## How to Run
 
 ```bash
-python main.py
+python keyboard_instructions.py
 ```
 
 ## Project Structure
