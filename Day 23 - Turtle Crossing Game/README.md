@@ -2,6 +2,10 @@
 
 A Frogger-style crossing game built with Python's Turtle graphics library. Guide your turtle across the screen while avoiding oncoming cars. Each successful crossing raises the level and increases car speed.
 
+## Preview
+
+![Turtle Crossing — Level 2, Game Over screen](preview.png)
+
 ## Controls
 
 | Key | Action |
@@ -14,7 +18,7 @@ A Frogger-style crossing game built with Python's Turtle graphics library. Guide
 ## How to Run
 
 ```bash
-python main.py
+python keyboard_instructions.py
 ```
 
 ## Project Structure
