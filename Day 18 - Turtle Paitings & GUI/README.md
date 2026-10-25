@@ -2,6 +2,10 @@
 
 Introduction to Python's Turtle graphics library. Covers basic turtle controls through to intermediate generative art sketches.
 
+## Preview
+
+![Turtle Graphics — nested polygons sketch](preview.png)
+
 ## Sketches
 
 | File | Description |
