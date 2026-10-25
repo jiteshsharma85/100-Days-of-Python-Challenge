@@ -1,34 +1,26 @@
-# Day 27 — Tkinter GUI
+# Day 27 — Mile to Km Converter
 
-GUI projects from Day 27 of the 100 Days of Code challenge.
+## Preview
 
-## Projects
+![Mile to Km Converter — 100 miles = 160.934 km](preview.png)
 
-### `main.py` — Basic Tkinter GUI
-A simple window with a label, two buttons, and a text entry field. Clicking the main button updates the label to whatever is typed in the input box.
+## Project
+
+### `main.py` — Miles to Km Converter
+Enter a distance in miles, click **Calculate**, and the result in kilometres is displayed instantly.
 
 ```bash
 python main.py
 ```
 
-### `Km/main.py` — Miles to Km Converter
-Enter a distance in miles, click **Calculate**, and the result in kilometres is displayed.
+---
 
-```bash
-cd Km
-python main.py
-```
-
-### `playground.py` — `*args` Practice
-A short exercise exploring `*args` — passes any number of arguments to an `add()` function.
-
-```bash
-python playground.py
-```
+### `extras/` — Tkinter Practice
+Scratch files from the introductory Tkinter exercises (basic widgets, `*args` practice).
 
 ## Concepts Practiced
 
 - Tkinter widgets: `Label`, `Button`, `Entry`
 - `.grid()` layout manager
 - `window.config(padx, pady)` for padding
-- `*args` in function definitions
+- Real-time unit conversion with `float()` input parsing
