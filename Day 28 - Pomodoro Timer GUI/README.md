@@ -30,7 +30,7 @@ A checkmark (⍻) appears below the timer after each completed focus session. Cl
 ## How to Run
 
 ```bash
-python main.py
+python keyboard_instructions.py
 ```
 
 > Make sure `tomato.png` is in the same directory as `main.py`.
