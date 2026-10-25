@@ -25,6 +25,7 @@ extracted_colors = [(219, 148, 91), (55, 104, 134), (145, 85, 60), (122, 162, 18
 
 paint = Turtle()
 paint.width(1)
+paint.penup()
 paint.setx(-100)
 paint.sety(-100)
 
